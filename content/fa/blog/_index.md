@@ -1,6 +1,9 @@
 ---
 title: "بلاگ داکسی"
 linkTitle: "بلاگ"
+aliases:
+    - /content/en/blog/
+
 menu:
   main:
     weight: 30
