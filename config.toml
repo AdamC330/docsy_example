@@ -52,27 +52,26 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
+
+[languages.main_test]
+title = "main_test"
+languageName ="main_test"
+description = "main page in documentation"
+contentDir = "content/main_test"
+weight = 1
+
+[languages.content_design_and_technical_writing_for_software_engineers]
+title = "Content_design and technical writing for software developers"
+languageName ="Content design and technical writing for software developers"
+description = "main page in documentation"
+contentDir = "content/Content design and technical writing for software developers"
+weight = 1
+
 [languages.en]
 title = "Goldydocs"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
-weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [languages.de]
 title = "Goldydocs"
